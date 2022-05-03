@@ -1,0 +1,243 @@
+.card-one ul li{
+    list-style: none;
+    color: rgb(194, 191, 191);
+    margin-top: .5rem;
+}
+.shop-btn{
+    position: absolute; 
+    display: flex;
+    align-items: center;
+    top: 87%;
+    right: 10%; 
+    background-color: rgb(6, 6, 56);
+    padding: .4rem 1.7rem;
+    border-radius: 3rem;
+}
+.shop-btn a{
+    color: #eef9ff;
+    padding-right: 1.7rem;
+}
+
+.cards-container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.box-section{
+    background: #0a99dc;
+     margin-top: 2rem;
+     margin-bottom: 4rem;
+      height: auto;
+}
+.box-header{
+    width: 100%;
+    padding: .1rem 0;
+    display: flex; 
+    height: auto;
+    
+   
+}
+.card-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.box-header .lists{
+    display: flex;
+    flex-wrap: wrap;
+   
+    align-items: center;
+}
+.box-header .lists h6{
+    margin-left: 1rem;
+    color: #eef9ff;
+}
+.see{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.see h6{
+    color: #eef9ff;
+    letter-spacing: .2px;
+    font-weight: 400;
+}
+.see{
+    margin-left: 22rem;
+}
+.lists .line{
+    border-right: 2px solid rgb(128, 241, 128);
+     padding-left: 1rem;
+}
+
+.cards2{
+    display: grid;
+     grid-template-columns: .8fr 3fr;
+      grid-gap: 1rem;
+}
+.cards2 h1{
+    color: #eef9ff;
+     letter-spacing: 1px; 
+     font-weight: 600;
+      line-height: 2rem;
+}
+.card-two img{
+    object-fit: cover;
+}
+.img-text{
+    padding: 3rem;
+}
+.icon4{
+    padding: .4rem .8rem;
+}
+.card-two{
+    height: 18rem;
+}
+
+@media only screen and (max-width:1360px){
+   
+    .see{
+        margin-left: 24rem;
+    }
+ 
+}
+@media only screen and (max-width:1280px){
+   
+    .see{
+        margin-left: 22rem;
+    }
+ 
+}
+@media only screen and (max-width:1200px){
+   
+    .see{
+        margin-left: 19rem;
+    }
+ 
+}
+@media only screen and (max-width:1120px){
+   
+       .card-row{
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+       }
+       .see{
+           margin-left: 10rem;
+       }
+    
+}
+
+@media only screen and (max-width:896px){
+   
+       .card-row{
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+       }
+     
+    
+}
+@media only screen and (max-width:786px){
+    .list1 li .line{
+        padding-left: .8rem;
+    }
+    .see{
+     margin-left: 10rem;
+    }
+    .cards2{
+        grid-template-columns: 1fr;
+    }
+
+ }
+ @media only screen and (max-width:680px){
+    .box-header .lists {
+        font-size: .8rem;
+        flex-wrap: wrap;
+        
+    }
+    
+    .see h6{
+        font-size: .9rem;
+    }
+    .see{
+        margin-left: 2rem;
+    }
+    
+    .cards2{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .card-row{
+        grid-template-columns: 1fr;
+        
+    }
+    .cards2{
+        grid-template-columns: 1fr;
+    }
+    .card-two h1{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .card-two h3{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .card-two img{
+        object-fit: contain;
+    }
+    .see{
+        flex-wrap: wrap;
+    }
+    .see .icon-arrow-right32{
+        font-size: .5rem;
+        opacity: 0;
+    }
+    .lists .line2{
+       opacity: 0;
+    }
+}
+@media only screen and (max-width:397px){
+    .see h6{
+        font-size: .7rem;
+    }
+    .lists h6{
+        font-size: .7rem
+    }
+    .cards-container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .card-two h1{
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    .card-two h3{
+        font-size: .7rem;
+        line-height: 1rem;
+    }
+    .card-two img{
+        object-fit: contain;
+    }
+    .img-text{
+        padding: 2rem;
+    }
+    .shop-btn{
+        top: 84%;
+        right: 4%;
+        padding: .4rem 1.2rem;
+    }
+    .shop-btn a{
+        font-size: .7rem;
+    }
+    .icon4{
+        padding: .2rem .5rem;
+    }
+    .card-two{
+        height: 15rem;
+    }
+    .box-section{
+        margin-top: 1rem;
+    }
+}

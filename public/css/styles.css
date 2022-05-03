@@ -1,0 +1,135 @@
+.content {
+    padding: 0 !important;
+}
+
+.client-payment-details .card-body span.title {
+    font-weight: 500;
+    display: inline-block;
+    width: 40%;
+}
+
+.client-payment-details .card-body span.title~ {
+    display: inline-block;
+    /* width: 45%; */
+}
+
+.client-payment-details .media {
+    background-color: #f6f2fc;
+}
+
+.modal-footer .btn-link.dismiss-modal {
+    color: #fc003bb2;
+}
+
+.modal-footer .btn-link.dismiss-modal:hover {
+    color: #ff003c;
+}
+
+#payments i#prev,
+#payments i#next {
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#payments i#prev:hover,
+#payments i#next:hover {
+    background-color: #e8d9ff;
+}
+
+#filter-nav {
+    top: 130px;
+    position: absolute;
+    /* Position them relative to the browser window */
+    right: -60px;
+    /* Position them outside of the screen */
+    transition: 0.3s;
+    /* Add transition on hover */
+    z-index: 1;
+}
+
+#filter-nav:hover {
+    right: 0;
+    /* On mouse-over, make the elements appear as they should */
+}
+
+#payment-filter {
+    background-color: #04AA6D;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    /* transform: rotate(90deg); */
+}
+
+.selected {
+    z-index: 1;
+    color: #eee;
+    text-decoration: none;
+    background-color: #101318;
+}
+
+.p-active {
+    background-color: #303949;
+    color: #fff;
+}
+
+#payment_view .payment-details {
+    position: relative;
+    padding: 4px 0;
+}
+
+
+.hover {
+    transition: 0.3s;
+}
+
+.hover:hover {
+    background-color: #eee;
+    /* transition: 0.3s; */
+}
+
+
+/* @media (min-width: 992px) {
+
+    .sidebar-main-resized:not(.sidebar-main-unfold) {
+        position: relative;
+    }
+} */
+
+.input-group>input[type=password].security {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: 0 !important;
+}
+
+
+input.form-control,
+input[type=search],
+textarea,
+select {
+    border: 2px solid #ddd !important;
+    border-radius: 0.7rem !important;
+}
+
+
+
+
+.navbar-dark .navbar-nav-link:focus,
+.navbar-dark .navbar-nav-link:hover {
+    background-color: transparent !important;
+}
+
+
+/* category / brand / model */
+.cat-option .dropdown-toggle::after {
+    position: absolute !important;
+    top: 12px;
+    right: 18px;
+    color: #000;
+}
+
+.dropdown-menu {
+    padding-bottom: 0 !important;
+}
+
+.dropdown-menu .badge {
+    font-size: 10px !important;
+}
